@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Portfolio" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/portfolio_blue</item>
+        <item name="android:colorPrimaryDark">@color/portfolio_blue_dark</item>
+        <item name="android:colorAccent">@color/portfolio_blue</item>
+        <item name="android:statusBarColor">@color/portfolio_blue</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+    </style>
+
+    <style name="Theme.Portfolio" parent="Base.Theme.Portfolio" />
+    
+    <!-- Splash Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/portfolio_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_portfolio_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.Portfolio</item>
+    </style>
+</resources>

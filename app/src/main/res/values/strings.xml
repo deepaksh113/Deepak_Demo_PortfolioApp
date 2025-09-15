@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="positions">POSITIONS</string>
+    <string name="holdings">HOLDINGS</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="orders">Orders</string>
+    <string name="funds">Funds</string>
+    <string name="invest">Invest</string>
+    <string name="current_value">Current value*</string>
+    <string name="total_investment">Total investment*</string>
+    <string name="todays_profit_loss">Today\'s Profit &amp; Loss*</string>
+    <string name="profit_loss">Profit &amp; Loss*</string>
+    <string name="net_qty">NET QTY:</string>
+    <string name="ltp">LTP:</string>
+    <string name="pnl">P&amp;L:</string>
+    <string name="rupee_symbol">₹</string>
+</resources>
